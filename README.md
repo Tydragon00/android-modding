@@ -1,4 +1,4 @@
-# android-modding
+# Android-modding
 Script for modding android devices
 
 

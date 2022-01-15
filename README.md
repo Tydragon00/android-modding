@@ -1,5 +1,5 @@
 # Android-modding
-Script for modding android devices
+Guide for modding android devices
 
 
 

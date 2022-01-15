@@ -33,16 +33,5 @@ Script for modding android devices
     $ adb sideload  "ROM file.zip" 
  
   
-# For Samsung devices (odin mode):
-  - Install custom recovery (TWRP or OrangeFox)
-    - Reboot in fastboot
-      ```console
-      $ adb reboot bootloader
-
-    - "Inserire parte mancante"
-    - Install custom recovery
-      ```console
-      $ heimdall flash --RECOVERY recovery.img
-  
 
 

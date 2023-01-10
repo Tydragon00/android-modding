@@ -1,7 +1,8 @@
 # Android-modding
 Guide for modding android devices
 
-
+# Install tool
+    $ sudo apt-get install android-tools-adb
 
 # For Xiaomi devices:
 

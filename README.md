@@ -2,7 +2,7 @@
 Guide for modding android devices
 
 # Install tool
-    $ sudo apt-get install android-tools-adb
+    $ sudo apt install android-tools-adb android-tools-fastboot -y
 
 # For Xiaomi devices:
 
@@ -22,6 +22,9 @@ Guide for modding android devices
   - Install custom recovery
     ```console
     $ fastboot flash recovery recovery.img
+  - Reboot on custom recovery
+    ```console
+    $ fastboot reboot recovery 
        
     
 - Install custom ROM

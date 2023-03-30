@@ -1,11 +1,14 @@
 # Android-modding
 Guide for modding android devices
 
-# Install tool
-    $ sudo apt install android-tools-adb android-tools-fastboot -y
-
-
 # Requirements 
+ - Installation tool
+    ```console
+    $ sudo apt install android-tools-adb android-tools-fastboot -y
+     ```
+    or
+     ```
+    $ sudo pacman -Sy android-tools
  - Get the code name of your device: 
     ```console
     $ adb shell getprop ro.product.device

@@ -4,6 +4,12 @@ Guide for modding android devices
 # Install tool
     $ sudo apt install android-tools-adb android-tools-fastboot -y
 
+
+# Requirements 
+ - Get the code name of your device: 
+    ```console
+    $ adb shell getprop ro.product.device
+
 # For Xiaomi devices:
 
 - Install custom recovery (TWRP or OrangeFox)
